@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+   	</head>
+   	<body>
+		<h1 class="header1">Hollywood Has Always Been A Popularity Contest</h1>
+		<p>
+			In cinema of the past and the present, one question has always prevailed: Who's who?
+			In a city ruled by popularity, ratings are everything.<br> By using this visualization, we'll help you see what kinds of movies are sitting atop the iron throne
+			of Hollywood.
+		</p>
+		<br>
+		<hr style = "position:absolute; top: 140px;">
+		<p1>
+			<h1 class="lineheader">First Stop: The Big Picture</h1>
+			<p class="linee"> This following linechart will give you an idea of the various trends we've been seeing
+				in cinema these past few years. <br> Use the selector to see how popular different genres of movies
+				have been from 2010-2016 based on aggregation of the total <br> Facebook likes movies in these genres had.
+			</p>
+		</p1>
+		<p2>
+			<br><br>
+		  	<div class="info_box" style = "position:fixed; left:1050px; top:100px;" id="chart5">
+		        <strong>Title:</strong> <span id="title"></span><br/>
+		        <strong>Director:</strong> <span id="director"></span><br/>
+		        <strong>Release Year:</strong> <span id="year"></span><br/>
+				<strong>Budget:</strong> <span id="budget"></span><br/>
+		        <strong>Gross Earnings:</strong> <span id="gross"></span><br/>
+		        <strong>IMDB Score:</strong> <span id="imdb"></span><br/>
+				<strong>Movie Likes:</strong> <span id="movie_likes"></span><br/>
+				<strong>Cast Likes:</strong> <span id="cast_likes"></span><br/>
+				<select id="movie_choice" style="max-width:50%;">
+				</select>
+	        </div>
+		</p2>
+		<p class="linee">
+			After a bit of interaction and analysis, it's apparent there are large
+			shifts in the popularity of genres. It seems that even drama, <br>the beloved darling of Los Angeles
+			and the Oscars themselves has fallen from grace.
+		</p>
+		<br class="secondbreak">
+		<hr style = "position:absolute; top: 890px;">
+		<h1 class="lineheader">Next Up: Name Isn't Everything</h1>
+		<p class="linee">
+			William Goldman once said, "In Hollywood, no one knows anything."<br>
+			<br>But our data tells a different story. In fact, it seems people in Hollywood
+			know quite a lot of things -- particularly, <br> about making a successful movie. The following charts
+			continue our theme of popularity. <br><br>The left compares a movie's IMDB score to its duration, while the right
+			compares IMDB scores to cast popularity. Points on both graphs are <br> sized
+			according to the director's popularity (his or her total Facebook likes).
+			You can also select regions on each chart to highlight it's <br> corresponding points on the other...
+			 A bit redundant, we know, but we want to drive our message home.
+		</p>
+		<hr class="rotatedhr "style = "position:absolute; top: 1025px; left: 750px">
+		<blockquote style = "position:absolute; top: 984px; left: 785px">
+			“In Hollywood, no <br>one knows anything.”
+		</blockquote>
+		<br>
+		<p3>
+				<div id="chart1" style = "position:absolute; top: 1200px;">
+		    	</div>
+			  	<div id="chart2" style = "position:absolute; top: 1200px; left: 550px">
+		        </div>
+				<p class="linee" style = "position:absolute; top: 1740px">
+					So what's the take home message? We know these charts can be a bit much to digest, so let's take a look together. Immediately, we can see that
+					<br> IMDB scores vary across all durations and all cast popularities, but not without some trends.
+					For duration, the most successful movies seem to be <br> 75 to 175 minuteslong, and accordingly, the vast majority of films are between
+					these two lengths. <br><br>
+					We see less of a correlation for movie success to cast popularity, but there's still a lot to notice. Primarily, nearly all films with famous casts have <br> rather high ratings.
+					In other words, Hollywood knows that a good cast and a medium-length runtime usually makes for a good movie.
+					<hr style = "position:absolute; top: 1900px;">
+				</p>
+				<div id="chart3" style = "position:absolute; top: 2100px";>
+				</div>
+				<h1 class="lineheader" style = "position:absolute; top: 1940px";>Wrapping Up: What's the Big Idea?</h1>
+				<p class="linee" style = "position:absolute; top: 1990px";>
+					Now you know a bit more about the factors that directly lead to a movies success, and the trends our visualizations display <br>
+					show that Hollywood is already cognizant of these factors. So now close out our info vis escapade by zooming out and taking a look at <br> everybody's favorite movie rating: IMDB Score.
+					The follow chart plots (rounded) IMDB scores against the number of movies that <br> received those scores over the past few years.
+				</p>
+				<p class="linee" style = "position:absolute; top: 2720px";>
+					Immediately, we notice that despite knowing what goes into a successful movie, Hollywood is pretty good at making mediocre films! <br>
+					The most common scores are right in the middle of IMDB's 0-10 ranking, with 5 and 6 being the highest occurring scores in recent years.
+					<br><br> So maybe old William Goldman was right, nobody in Hollywood may actually know anything!
+				</p>
+				<hr class="longerhr "style = "position:absolute; top: 2800px; ">
+				<h1 class="lineheader" style = "position:absolute; top: 2820px; ">That's All Folks!</h1>
+				<p class="closer" style = "position:absolute; top: 2870px;">
+					Created with love for our TAs and Dr. Endert by Nouzhan Vakili Dastjerd & Mehnaz Ruksana!
+				</p>
+		</p3>
+	</body>
+</html>

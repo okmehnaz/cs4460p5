@@ -1,0 +1,126 @@
+body {
+  font: 12px sans-serif;
+}
+
+hr {
+	border: 1px solid #6e6eb4;
+	width: 60%;
+	/* margin: auto; */
+	/* margin-top: 5%; */
+	/* margin-bottom: 5%; */
+}
+
+.closer {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; color: slategray;
+}
+
+.tooltip {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+	background-color: lightyellow
+}
+
+.rotatedhr {
+  opacity: .33;
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+  border: 1px solid gray;
+  width: 9%
+}
+
+.longerhr {
+  opacity: 0.0;
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+  border: 1px solid gray;
+  width: 7%
+}
+
+.secondbreak {
+	line-height: 50px
+}
+
+blockquote { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+
+.bar {
+	/* fill: #8492C2; */
+}
+.bar:hover {
+	fill: khaki;
+}
+
+.info_box {
+	font-family: "Helvetica Neue"; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 200; line-height: 17.4px;
+}
+
+strong {
+	font-family: "Helvetica Neue"; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 17.4px;
+
+}
+
+.header1 { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 42px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+p { font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+
+.lineheader {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 26.4px; }
+}
+
+.linee {
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+}
+
+.tick > line {
+	fill: none;
+	stroke: black;
+}
+.tick > text {
+	fill: black;
+}
+.selected {
+	stroke: khaki;
+	fill:khaki;
+}
+.selected2 {
+	stroke: sandybrown;
+	fill: sandybrown;
+}
+.selected3 {
+	stroke: red;
+	fill: red;
+}
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+#wrapper {
+	clear:both;
+}
+#chart1 {
+    float:left;
+}
+#chart2{
+	float:left;
+}
+#chart3 {
+	float:left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.brush .extent {
+	fill-opacity: .1;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+
+
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
